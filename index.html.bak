@@ -940,9 +940,9 @@
                 <div id="map"></div>
                 <div id="location-btn"><i class="iconfont" style="font-size: 32px;">&#xe616;</i></div>
                 <div id="map-msg">
-                    <p class="js-animate animated" data-animate="bounceInDown" data-time="0"><i class="iconfont red-icon">&#xe63e;</i>成都市高新区新国际会展中心，距离天府广场约13公里</p>
-                    <p class="js-animate animated" data-animate="bounceInLeft" data-time="1000"><i class="iconfont red-icon">&#xe622;</i>天府大道中段转世纪城路</p>
-                    <p class="js-animate animated" data-animate="bounceInRight" data-time="2000"><i class="iconfont red-icon">&#xe72b;</i>一号线世纪城站</p>
+                    <p class="js-animate animated" data-animate="bounceInDown" data-time="0"><i class="iconfont red-icon">&#xe63e;</i>鑫田国际大酒店，五楼国际厅</p>
+                    <p class="js-animate animated" data-animate="bounceInLeft" data-time="1000"><i class="iconfont red-icon">&#xe622;</i>xxxxxxxx</p>
+                    <p class="js-animate animated" data-animate="bounceInRight" data-time="2000"><i class="iconfont red-icon">&#xe72b;</i>xxxxxxxx</p>
                     <p class="js-animate animated" data-animate="bounceInUp" data-time="3000"><i class="iconfont red-icon">&#xe636;</i>有任何疑问请致电 新郎&新娘</p>
                 </div>
         </div>
@@ -1028,7 +1028,7 @@
         function initMap() {
             if (window.BMap) {
                 mapFlag = true
-                var mapCenter = [104.083002,30.5621]
+                var mapCenter = [112.964342,27.781145]
                 var map = new BMap.Map("map", {minZoom: 10,maxZoom: 14})
 
                 map.centerAndZoom(new BMap.Point(mapCenter[0], mapCenter[1]), 13);
